@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    align-content: center;
+}
+body {
+    background-color: black;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.nav {
+    display: flexbox;
+    align-items: center;
+}
+ul {
+    background-color: #333395;
+    color: white;
+
+}
+
+ul li {
+    align-items: center;
+    color: #fefefe;
+    font-size: 1.5rem;
+}
+
+ul li:hover {
+    border-radius: 0.35rem;
+    color: green;
+}
+
+.container {
+    padding-top: 200px;
+}
+
+span {
+    font-size: 1.9rem;
+}
+
+.colorBtn {
+    padding: 0.5rem 1rem;
+    border: 3px solid #fefefe;
+    border-radius: 7px;
+    color: #fefefe;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+.colorBtn:hover {
+    background: rgb(0, 255, 0);
+}
